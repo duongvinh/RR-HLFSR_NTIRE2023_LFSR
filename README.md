@@ -75,7 +75,7 @@ If you find this work helpful, please consider citing the following papers:<br>
 ```
 ## Acknowledgement
 Our work and implementations are inspired and based on the following projects: <br> 
-[Basic-LFSR]((https://github.com/ZhengyuLiang24/BasicLFSR))<br> 
+[Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLFSR)<br> 
 [LF-DFnet](https://github.com/YingqianWang/LF-DFnet)<br> 
 [LF-InterNet](https://github.com/YingqianWang/LF-InterNet)<br>
 We sincerely thank the authors for sharing their code and amazing research work!
