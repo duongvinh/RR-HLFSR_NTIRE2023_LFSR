@@ -297,7 +297,7 @@ def test(test_loader, device, net, save_dir=None):
 				''' Restore the Patches to LFs '''
 				Sr_4D_y = LFintegrate(subLFout, args.angRes_out, args.patch_size_for_test * args.scale_factor,
 									args.stride_for_test * args.scale_factor, Hr_SAI_y.size(-2)//args.angRes_out, Hr_SAI_y.size(-1)//args.angRes_out)
-				#Sr_SAI_y = rearrange(Sr_4D_y, 'a1 a2 h w -> 1 1 (a1 h) (a2 w)')
+				Sr_SAI_y = rearrange(Sr_4D_y, 'a1 a2 h w -> 1 1 (a1 h) (a2 w)')
 				Sr_SAI_y = Sr_SAI_y.to(args.device)
 
 			if args.crop_test_method == 3:
@@ -417,7 +417,7 @@ def test(test_loader, device, net, save_dir=None):
 			psnr_iter_test = 0
 			ssim_iter_test = 0
 		else:
-			psnr, ssim = cal_metrics_2(Hr_SAI_y, Sr_SAI_y,args.angRes_out )
+			psnr, ssim = cal_metrics_2(Hr_SAI_y.squeeze(), Sr_SAI_y.squeeze(),args.angRes_out )
 			psnr_iter_test.append(psnr)
 			ssim_iter_test.append(ssim)
 			LF_iter_test.append(LF_name[0])
