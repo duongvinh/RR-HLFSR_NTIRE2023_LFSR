@@ -56,13 +56,14 @@ If you find this work helpful, please consider citing the following papers:<br>
   year    = {2023},
 }
 ```
+```Citation
 @InProceedings{NTIRE2023-LFSR,
   author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and Yang, Jungang and Timofte, Radu and Guo, Yulan},
   title     = {NTIRE 2023 Challenge on Light Field Image Super-Resolution},
   booktitle = {CVPRW},
   year      = {2023},
 }
-
+```
 ## Acknowledgement
 Our work and implementations are inspired and based on the following projects: <br> 
 [Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLFSR)<br> 
