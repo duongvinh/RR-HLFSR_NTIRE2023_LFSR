@@ -63,7 +63,6 @@ If you find this work helpful, please consider citing the following papers:<br>
   year      = {2023},
 }
 
-```
 ## Acknowledgement
 Our work and implementations are inspired and based on the following projects: <br> 
 [Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLFSR)<br> 
