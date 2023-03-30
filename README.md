@@ -49,31 +49,18 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 ## Citation
 If you find this work helpful, please consider citing the following papers:<br> 
 ```Citation
-@article{HLFSR,
-  title={Light Field Super-Resolution Network Using Joint Spatio-Angular and Epipolar Information},
-  author={Vinh Van Duong, Thuc Nguyen Huu, Jonghoon Yim, and Byeungwoo Jeon},
-  journal={ IEEE Transactions on Computational Imaging},
-  year={2023},
-  publisher={IEEE}
+@Article{vinh2023-lfsr,
+  author  = {Duong, V. V. and Nguyen, T. H. and Yim, J. and Jeon, B.},
+  journal = {IEEE Trans. Compuational Imaging},
+  title   = {Light Field Image Super-Resolution Network via Joint Spatial-Angular and Epipolar Information},
+  year    = {2023},
 }
 ```
-```Citation
-@InProceedings{LF-InterNet,
-  author    = {Wang, Yingqian and Wang, Longguang and Yang, Jungang and An, Wei and Yu, Jingyi and Guo, Yulan},
-  title     = {Spatial-Angular Interaction for Light Field Image Super-Resolution},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  pages     = {290-308},
-  year      = {2020},
-}
-
-```Citation
-@article{LF-DFnet,
-  author  = {Wang, Yingqian and Yang, Jungang and Wang, Longguang and Ying, Xinyi and Wu, Tianhao and An, Wei and Guo, Yulan},
-  title   = {Light Field Image Super-Resolution Using Deformable Convolution},
-  journal = {IEEE Transactions on Image Processing},
-  volume  = {30),
-  pages   = {1057-1071},
-  year    = {2021},
+@InProceedings{NTIRE2023-LFSR,
+  author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and Yang, Jungang and Timofte, Radu and Guo, Yulan},
+  title     = {NTIRE 2023 Challenge on Light Field Image Super-Resolution},
+  booktitle = {CVPRW},
+  year      = {2023},
 }
 
 ```
