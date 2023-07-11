@@ -454,7 +454,7 @@ def test(test_loader, device, net, save_dir=None):
 			pass
 		pass
 
-	return psnr_iter_test, ssim_iter_test, LF_iter_test, time_total
+	return psnr_iter_test, ssim_iter_test, LF_iter_test
 
 
 if __name__ == '__main__':
